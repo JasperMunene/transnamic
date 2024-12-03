@@ -40,7 +40,7 @@ export function AnimatedCounter({ end, duration = 2, suffix = '' }) {
   return (
     <motion.span
       ref={ref}
-      className="block text-6xl font-bold text-blue-950 dark:text-white"
+      className="block text-6xl font-bold bg-gradient-to-r from-blue-950 to-blue-800 dark:from-white dark:to-gray-300 bg-clip-text text-transparent"
     >
       {count}{suffix}
     </motion.span>

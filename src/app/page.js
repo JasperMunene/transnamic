@@ -1,6 +1,8 @@
 import Hero from '@/components/hero/hero';
 import Navbar from '@/components/Navbar'
+import Services from '@/components/services/Services';
 import Stats from '@/components/stats/Stats';
+import Works from '@/components/works/Works';
 
 export default function Page() {
   return (
@@ -9,6 +11,7 @@ export default function Page() {
       <div className="pt-16">
         <Hero />
         <Stats />
+        <Services />
       </div>
     </main>
   );

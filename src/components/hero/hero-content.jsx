@@ -18,7 +18,7 @@ export function HeroContent() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="text-5xl font-bold leading-tight text-black dark:text-gray-200"
+        className="text-5xl font-bold leading-tight text-blue-950 dark:text-gray-200"
       >
         Fast and Flexible Solutions
       </motion.h1>

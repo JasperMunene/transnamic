@@ -6,19 +6,33 @@ import Image from 'next/image';
 const projects = [
   {
     id: 1,
-    image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&auto=format&fit=crop&q=60",
+    image: "/p2.jpg",
+
     alt: "Construction project 1"
   },
   {
     id: 2,
-    image: "https://images.unsplash.com/photo-1565008447742-97f6f38c985c?w=800&auto=format&fit=crop&q=60",
+    image: "/Project3.jpeg",
     alt: "Construction project 2"
   },
   {
     id: 3,
-    image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&auto=format&fit=crop&q=60",
+    image: "/Project4.jpeg",
+    alt: "Construction project 3"
+  },
+  
+  {
+    id: 3,
+    image: "/Dongo.jpg",
+    alt: "Construction project 3"
+  },
+
+  {
+    id: 3,
+    image: "/Project 5.jpg",
     alt: "Construction project 3"
   }
+
 ];
 
 export function ProjectImages() {

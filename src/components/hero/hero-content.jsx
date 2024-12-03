@@ -20,7 +20,8 @@ export function HeroContent() {
         transition={{ duration: 0.5 }}
         className="text-5xl font-bold leading-tight text-blue-950 dark:text-gray-200"
       >
-        Fast and Flexible Solutions
+        Welcome to Transnamic Limited
+
       </motion.h1>
 
       <motion.p
@@ -29,9 +30,7 @@ export function HeroContent() {
         transition={{ duration: 0.5, delay: 0.2 }}
         className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed"
       >
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quam 
-        architecto expedita facere similique reprehenderit quaerat iusto ad 
-        dolorem exercitationem.
+         Innovating logistics and construction solutions to power your business.
       </motion.p>
 
       <motion.div 

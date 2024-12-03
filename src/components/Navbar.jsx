@@ -23,7 +23,7 @@ const Navbar = () => {
     <nav
       className={cn(
         'z-50 fixed top-0 left-0 right-0 backdrop-blur-md',
-        'lg:top-12 lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:-translate-y-1/2 lg:w-auto lg:rounded-xl lg:shadow-lg lg:border lg:border-gray-300 dark:lg:border-gray-700'
+        'lg:top-12 lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:-translate-y-1/2 lg:w-fit lg:rounded-xl lg:shadow-lg lg:border lg:border-gray-300 dark:lg:border-gray-700'
       )}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

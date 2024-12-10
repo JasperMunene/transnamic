@@ -41,7 +41,7 @@ const AboutTabs = () => {
   };
 
   return (
-      <div className="w-full max-w-4xl mx-auto space-y-6">
+      <div className="w-full max-w-4xl mx-auto space-y-10">
         {tabData.map((tab) => (
             <div
                 key={tab.key}
@@ -52,8 +52,8 @@ const AboutTabs = () => {
                 onClick={() => handleTabClick(tab.key)}
             >
               {!activeTab || activeTab !== tab.key ? (
-                  <div className="p-6 bg-gradient-to-r from-blue-50 to-blue-100">
-                    <h3 className="text-xl font-semibold text-blue-900">{tab.label}</h3>
+                  <div className="bg-gradient-to-r dark:from-gray-900/50 dark:to-transparent p-10">
+                    <h3 className="text-xl font-semibold text-red-500">{tab.label}</h3>
                   </div>
               ) : (
                   <div className="relative">
@@ -65,8 +65,8 @@ const AboutTabs = () => {
                         className="object-cover w-full h-60"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/50 to-transparent p-6 text-white">
-                      <h3 className="text-2xl font-bold mb-2">{tab.label}</h3>
-                      <p className="text-sm leading-relaxed">{tab.content}</p>
+                      <h3 className="text-2xl font-bold mb-2 text-blue-50">{tab.label}</h3>
+                      <p className="text-sm font-medium md:font-semibold text-blue-50 leading-relaxed">{tab.content}</p>
                     </div>
                   </div>
               )}

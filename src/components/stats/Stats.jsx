@@ -52,7 +52,7 @@ export default function Stats() {
 
           {/* Building Image Section - 2 columns */}
           <div className="lg:col-span-2 relative h-[400px] lg:h-[500px] rounded-3xl overflow-hidden">
-            {/* Yellow Overlay */}
+            {/* red Overlay */}
             <div className="absolute inset-0 bg-gradient-to-r from-red-200/90 to-transparent z-10 dark:from-blue-950" />
             
             {/* Content */}

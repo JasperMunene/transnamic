@@ -25,7 +25,7 @@ const services = [
   },
   {
     type: 'car' ,
-    title: 'Residential Construction',
+    title: 'Residential Constructions',
     description: 'Delivering custom-built homes that combine comfort, style, and functionality.',
     image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80&w=800'
   }

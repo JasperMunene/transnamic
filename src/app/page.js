@@ -1,3 +1,4 @@
+import AboutSection from '@/components/about/AboutSection';
 import Hero from '@/components/hero/hero';
 import Navbar from '@/components/Navbar'
 import Services from '@/components/services/Services';
@@ -12,6 +13,7 @@ export default function Page() {
         <Hero />
         <Stats />
         <Services />
+        <AboutSection />
       </div>
     </main>
   );

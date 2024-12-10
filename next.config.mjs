@@ -6,7 +6,7 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'cdn.prod.website-files.com',
-        pathname: '/6329ae223e4134f94a1f5728/**',
+        pathname: '/**',
       },
       {
         protocol: 'https',

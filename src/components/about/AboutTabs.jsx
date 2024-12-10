@@ -41,35 +41,33 @@ const AboutTabs = () => {
   };
 
   return (
-      <div className="w-full">
+      <div className="w-full max-w-4xl mx-auto space-y-6">
         {tabData.map((tab) => (
             <div
                 key={tab.key}
-                className="mt-8 rounded-2xl bg-white border shadow-mdtext-blue-950 cursor-pointer"
+                className={`border rounded-xl shadow-lg overflow-hidden cursor-pointer transition-transform transform ${
+                    activeTab === tab.key ? 'scale-105' : 'hover:scale-105'
+                }`}
                 role="button"
                 onClick={() => handleTabClick(tab.key)}
             >
-              {!activeTab && (
-                  <h3 className="mb-4 text-2xl font-bold ">{tab.label}</h3>
-              )}
-
-              {activeTab === tab.key && (
-                  <div>
+              {!activeTab || activeTab !== tab.key ? (
+                  <div className="p-6 bg-gradient-to-r from-blue-50 to-blue-100">
+                    <h3 className="text-xl font-semibold text-blue-900">{tab.label}</h3>
+                  </div>
+              ) : (
+                  <div className="relative">
                     <Image
                         src={tab.image}
                         alt={tab.label}
                         width={500}
                         height={300}
-                        className="object-cover mb-4 w-full h-[30vh] bg-gradient-to-r from-blue-950 to-transparent"
+                        className="object-cover w-full h-60"
                     />
-                    <div className='h-[30vh] mt-[-30vh] p-4'>
-                      <h3 className="mb-4 text-2xl font-bold text-white pt-4">{tab.label}</h3>
-
-                      <p className="text-lg leading-relaxed text-blue-900">
-                        {tab.content}
-                      </p>
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/50 to-transparent p-6 text-white">
+                      <h3 className="text-2xl font-bold mb-2">{tab.label}</h3>
+                      <p className="text-sm leading-relaxed">{tab.content}</p>
                     </div>
-
                   </div>
               )}
             </div>

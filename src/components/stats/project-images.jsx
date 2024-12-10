@@ -31,6 +31,12 @@ const projects = [
     id: 3,
     image: "/Project 5.jpg",
     alt: "Construction project 3"
+  },
+  
+  {
+    id: 3,
+    image: "/Westlands.jpeg",
+    alt: "Construction project 3"
   }
 
 ];

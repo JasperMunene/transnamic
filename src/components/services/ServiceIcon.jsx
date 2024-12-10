@@ -1,5 +1,6 @@
 import { FC } from 'react';
-import { Building2, HardHat, Home, CableCar } from 'lucide-react';
+import { Building2, HardHat, Home, CableCar, Pickaxe, Drill, Truck } from 'lucide-react';
+
 import { cn } from '@/lib/utils';
 
 const ServiceIcon = ({ type, className }) => {
@@ -7,7 +8,10 @@ const ServiceIcon = ({ type, className }) => {
     sustainable: Building2,
     construction: HardHat,
     residential: Home,
-    car: CableCar
+    car: CableCar,
+    pickaxe: Pickaxe,
+    drill: Drill ,
+    truck: Truck
   };
 
   const Icon = icons[type];

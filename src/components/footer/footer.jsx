@@ -59,7 +59,7 @@ export default function Footer() {
                     </div>
                     <div className="footer-lower-block">
                         <div className="footer-copyright-text">Copyright © Transnamic | Designed by <a
-                            href="/" target="_blank" className="footer-copyright-link">Jasper
+                            href="/" target="_blank" className="footer-copyright-link">
                         </a></div>
                     </div>
                 </div>

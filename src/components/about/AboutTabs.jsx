@@ -63,6 +63,7 @@ const AboutTabs = () => {
                         width={500}
                         height={300}
                         className="object-cover w-full h-60"
+                        loading="lazy"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/50 to-transparent p-6 text-white">
                       <h3 className="text-2xl font-bold mb-2 text-blue-50">{tab.label}</h3>

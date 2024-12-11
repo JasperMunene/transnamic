@@ -1,7 +1,8 @@
 import { ThemeProvider } from "@/components/theme-provider"
 import localFont from "next/font/local";
 import { Manrope } from 'next/font/google';
-import "./globals.css";
+import "./css/globals.css"
+import "./css/styles.css"
 
 const manrope = Manrope({
   subsets: ['latin'],

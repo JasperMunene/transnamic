@@ -4,6 +4,12 @@ import Navbar from '@/components/Navbar'
 import Services from '@/components/services/Services';
 import Stats from '@/components/stats/Stats';
 import Works from '@/components/works/Works';
+import Marquee from "@/components/marquee/marquee";
+import Project from "@/components/projects/project";
+import Contact from '@/components/contact/contact'
+import Slider from '@/components/slider/slider'
+import Testimonial from "@/components/testimonial/testimonial";
+import Footer from "@/components/footer/footer"
 
 export default function Page() {
   return (
@@ -14,6 +20,12 @@ export default function Page() {
         <Stats />
         <Services />
         <AboutSection />
+        <Marquee />
+          <Project />
+          <Contact />
+          <Slider />
+          <Testimonial />
+          <Footer />
       </div>
     </main>
   );

@@ -58,7 +58,7 @@ export default function Navbar() {
             >
               <Button
                 size="sm"
-                className="bg-red-600 hover:bg-red-700 text-white shadow-lg hover:shadow-xl transition-all duration-200"
+                className="bg-[#a4161a] hover:bg-red-700 text-white shadow-lg hover:shadow-xl transition-all duration-200"
               >
                 Get a quote
               </Button>

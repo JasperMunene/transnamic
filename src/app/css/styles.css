@@ -3519,7 +3519,8 @@ figure {
 }
 
 .contact-us-banner-overly {
-    background-image: linear-gradient(14deg, #1d365c, #1d365ce3 19%, #1d365c00 65%);
+    background-image: linear-gradient(14deg, #a4161a, #a4161ae3 19%, #a4161a00 65%);
+
     width: 100%;
     height: 100%;
     position: absolute;
@@ -3742,7 +3743,7 @@ figure {
     overflow: hidden;
 }
 
-.brad-slider-wrapper-v2 {
+.brand-slider-wrapper-v2 {
     grid-column-gap: 60px;
     grid-row-gap: 60px;
     flex-flow: column;

@@ -52,7 +52,7 @@ const AboutTabs = () => {
                 onClick={() => handleTabClick(tab.key)}
             >
               {!activeTab || activeTab !== tab.key ? (
-                  <div className="bg-gradient-to-r dark:from-gray-900/50 dark:to-transparent p-10">
+                  <div className="bg-gradient-to-r dark:from-gray-900/50 dark:to-transparent p-6 2xl:p-10">
                     <h3 className="text-xl font-semibold text-red-500">{tab.label}</h3>
                   </div>
               ) : (

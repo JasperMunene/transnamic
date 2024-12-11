@@ -5,7 +5,7 @@ export default function Slider() {
                 <div className="banner-animation-loop-v2 left">
                     <div className="banner-animation-element-v2">
                         <div className="banner-text-divider">/</div>
-                        <div className="banner-heading-v2">TerraTech</div>
+                        <div className="banner-heading-v2">PrimeMovers</div>
                     </div>
                     <div className="banner-animation-element-v2">
                         <div className="banner-text-divider">/</div>
@@ -41,7 +41,7 @@ export default function Slider() {
                     </div>
                     <div className="banner-animation-element-v2">
                         <div className="banner-text-divider">/</div>
-                        <div className="banner-heading-v2">TerraTech</div>
+                        <div className="banner-heading-v2">PrimeMovers</div>
                     </div>
                     <div className="banner-animation-element-v2">
                         <div className="banner-text-divider">/</div>
@@ -56,7 +56,7 @@ export default function Slider() {
                     className="banner-animation-loop-v2 right">
                     <div className="banner-animation-element-v2">
                         <div className="banner-text-divider">/</div>
-                        <div className="banner-heading-v2">TerraTech</div>
+                        <div className="banner-heading-v2">PrimeMovers</div>
                     </div>
                     <div className="banner-animation-element-v2">
                         <div className="banner-text-divider">/</div>
@@ -92,7 +92,7 @@ export default function Slider() {
                     </div>
                     <div className="banner-animation-element-v2">
                         <div className="banner-text-divider">/</div>
-                        <div className="banner-heading-v2">TerraTech</div>
+                        <div className="banner-heading-v2">PrimeMovers</div>
                     </div>
                     <div className="banner-animation-element-v2">
                         <div className="banner-text-divider">/</div>

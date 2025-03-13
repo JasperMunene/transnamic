@@ -24,23 +24,10 @@ const services = [
     image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80&w=800'
   },
   {
-    type: 'drill' ,
-    title: 'Borehole',
-    description: 'Borehall provides sustainable borehole drilling for water extraction, environmental assessments, and geotechnical applications, delivering efficient solutions for construction and industry.',
-    image: 'https://images.unsplash.com/photo-1687669981635-a0becffac6be?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-  },
-
-  {
-    type: 'pickaxe',
-    title: 'Excavator Operator',
-    description: 'Precision for creating accurate and safe foundations, trenches, and site preparation',
-    image: 'https://media.istockphoto.com/id/1419307054/photo/excavator-at-a-construction-site-against-sunset-sky.webp?a=1&b=1&s=612x612&w=0&k=20&c=S1uBZQUqlZgjCeYVukzk3LqGQpqZ_-dBWx1xiPBlwy4='
-  },
-  {
-    type: 'truck',
-    title: 'Road freight',
-    description: 'We offer reliable road freight services, ensuring timely delivery across local, regional, and national routes with a fleet of well-maintained vehicles and experienced drivers, providing cost-effective solutions for businesses',
-    image: '/truck0001.jpeg'
+    type: 'car' ,
+    title: 'Residential Constructions',
+    description: 'Delivering custom-built homes that combine comfort, style, and functionality.',
+    image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&q=80&w=800'
   }
 ];
 

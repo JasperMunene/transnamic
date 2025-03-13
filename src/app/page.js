@@ -20,6 +20,13 @@ export default function Page() {
         <Stats />
         <Services />
         <AboutSection />
+        <Marquee />
+          <Project />
+          <Contact />
+          <Slider />
+          <Testimonial />
+          <Footer />
+         
       </div>
     </main>
   );

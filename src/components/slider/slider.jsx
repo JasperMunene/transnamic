@@ -5,102 +5,81 @@ export default function Slider() {
                 <div className="banner-animation-loop-v2 left">
                     <div className="banner-animation-element-v2">
                         <div className="banner-text-divider">/</div>
-                        <div className="banner-heading-v2">PrimeMovers</div>
+                        <div className="banner-heading-v2">Transnamic</div>
                     </div>
                     <div className="banner-animation-element-v2">
                         <div className="banner-text-divider">/</div>
-                        <div className="banner-heading-v2">PrimePave</div>
+                        <div className="banner-heading-v2">Transnamic</div>
                     </div>
                     <div className="banner-animation-element-v2">
                         <div className="banner-text-divider">/</div>
-                        <div className="banner-heading-v2">Vertex</div>
+                        <div className="banner-heading-v2">Transnamic</div>
                     </div>
                     <div className="banner-animation-element-v2">
                         <div className="banner-text-divider">/</div>
-                        <div className="banner-heading-v2">GreenBuild</div>
+                        <div className="banner-heading-v2">Transnamic</div>
                     </div>
                     <div className="banner-animation-element-v2">
                         <div className="banner-text-divider">/</div>
-                        <div className="banner-heading-v2">Apex</div>
+                        <div className="banner-heading-v2">Transnamic</div>
                     </div>
                     <div className="banner-animation-element-v2">
                         <div className="banner-text-divider">/</div>
-                        <div className="banner-heading-v2">UrbanCore</div>
+                        <div className="banner-heading-v2">Transnamic</div>
                     </div>
                     <div className="banner-animation-element-v2">
                         <div className="banner-text-divider">/</div>
-                        <div className="banner-heading-v2">SolarWave</div>
+                        <div className="banner-heading-v2">Transnamic</div>
                     </div>
                     <div className="banner-animation-element-v2">
                         <div className="banner-text-divider">/</div>
-                        <div className="banner-heading-v2">PrimePave</div>
+                        <div className="banner-heading-v2">Transnamic</div>
                     </div>
                     <div className="banner-animation-element-v2">
                         <div className="banner-text-divider">/</div>
-                        <div className="banner-heading-v2">Skyline</div>
+                        <div className="banner-heading-v2">Transnamic</div>
                     </div>
                     <div className="banner-animation-element-v2">
                         <div className="banner-text-divider">/</div>
-                        <div className="banner-heading-v2">PrimeMovers</div>
+                        <div className="banner-heading-v2">Transnamic</div>
                     </div>
                     <div className="banner-animation-element-v2">
                         <div className="banner-text-divider">/</div>
-                        <div className="banner-heading-v2">Vertex</div>
+                        <div className="banner-heading-v2">Transnamic</div>
                     </div>
                     <div className="banner-animation-element-v2">
                         <div className="banner-text-divider">/</div>
-                        <div className="banner-heading-v2">GreenBuild</div>
+                        <div className="banner-heading-v2">Transnamic</div>
                     </div>
                 </div>
-                <div
-                    className="banner-animation-loop-v2 right">
+                <div className="banner-animation-loop-v2 right">
                     <div className="banner-animation-element-v2">
                         <div className="banner-text-divider">/</div>
-                        <div className="banner-heading-v2">PrimeMovers</div>
+                        <div className="banner-heading-v2">Transnamic</div>
                     </div>
                     <div className="banner-animation-element-v2">
                         <div className="banner-text-divider">/</div>
-                        <div className="banner-heading-v2">PrimePave</div>
+                        <div className="banner-heading-v2">Transnamic</div>
                     </div>
                     <div className="banner-animation-element-v2">
                         <div className="banner-text-divider">/</div>
-                        <div className="banner-heading-v2">Vertex</div>
+                        <div className="banner-heading-v2">Transnamic</div>
                     </div>
                     <div className="banner-animation-element-v2">
                         <div className="banner-text-divider">/</div>
-                        <div className="banner-heading-v2">GreenBuild</div>
+                        <div className="banner-heading-v2">Transnamic</div>
                     </div>
                     <div className="banner-animation-element-v2">
                         <div className="banner-text-divider">/</div>
-                        <div className="banner-heading-v2">Apex</div>
+                        <div className="banner-heading-v2">Transnamic</div>
                     </div>
                     <div className="banner-animation-element-v2">
                         <div className="banner-text-divider">/</div>
-                        <div className="banner-heading-v2">UrbanCore</div>
+                        <div className="banner-heading-v2">Transnamic</div>
                     </div>
                     <div className="banner-animation-element-v2">
                         <div className="banner-text-divider">/</div>
-                        <div className="banner-heading-v2">SolarWave</div>
-                    </div>
-                    <div className="banner-animation-element-v2">
-                        <div className="banner-text-divider">/</div>
-                        <div className="banner-heading-v2">PrimePave</div>
-                    </div>
-                    <div className="banner-animation-element-v2">
-                        <div className="banner-text-divider">/</div>
-                        <div className="banner-heading-v2">Skyline</div>
-                    </div>
-                    <div className="banner-animation-element-v2">
-                        <div className="banner-text-divider">/</div>
-                        <div className="banner-heading-v2">PrimeMovers</div>
-                    </div>
-                    <div className="banner-animation-element-v2">
-                        <div className="banner-text-divider">/</div>
-                        <div className="banner-heading-v2">Vertex</div>
-                    </div>
-                    <div className="banner-animation-element-v2">
-                        <div className="banner-text-divider">/</div>
-                        <div className="banner-heading-v2">GreenBuild</div>
+                        <div className="banner-heading-v2">Transnamic</div>
                     </div>
                 </div>
             </div>

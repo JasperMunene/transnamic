@@ -1,0 +1,26 @@
+import Link from "next/link";
+export default function Hero2() {
+    return (
+        <section className="breadcrumb-section about">
+            <div className="w-layout-blockcontainer container w-container">
+                <div className="breadcrumb-wrapper">
+                    <div className="breadcrumb-header-block">
+                        <div className="overflow-hiden-block">
+                            <div className="breadcrumb-sub-title-block">
+                                <div className="breadcrumb-sub-title">[</div>
+                                <Link href="/"
+                                      className="breadcrumb-sub-title link">Home</Link>
+                                <div className="breadcrumb-sub-title primary-color-2">/</div>
+                                <div className="breadcrumb-sub-title primary-color-2">About Us</div>
+                                <div className="breadcrumb-sub-title">]</div>
+                            </div>
+                        </div>
+                        <div className="overflow-hiden-block">
+                            <h1 className="breadcrumb-title">Our Foundation is Built on Trust and Excellence.</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    )
+}

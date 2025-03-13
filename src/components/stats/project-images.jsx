@@ -24,19 +24,21 @@ const projects = [
   {
     id: 3,
     image: "/Dongo.jpg",
-    alt: "Construction project 3"
+    alt: "Construction project 4"
+
   },
 
   {
     id: 3,
     image: "/Project 5.jpg",
-    alt: "Construction project 3"
+    alt: "Construction project 5"
   },
   
   {
     id: 3,
     image: "/Westlands.jpeg",
-    alt: "Construction project 3"
+
+    alt: "Construction project 6"
   }
 
 ];

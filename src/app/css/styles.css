@@ -13445,3 +13445,40 @@ figure {
     font-style: normal;
     font-display: swap;
 }
+
+.banner-animation-loop-v2 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner-animation-loop-v2.left {
+  animation: scroll-left 10s linear infinite;
+}
+
+.banner-animation-loop-v2.right {
+  animation: scroll-right 10s linear infinite;
+}
+
+.banner-animation-element-v2,
+.banner-animation-element-2 {
+  white-space: nowrap;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}

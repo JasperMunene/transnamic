@@ -1,4 +1,5 @@
 "use client"
+import Link from 'next/link';
 import React, { useState } from 'react';
 
 export default function Footer() {
@@ -24,9 +25,9 @@ export default function Footer() {
             <div className="w-layout-blockcontainer container w-container">
                 <div className="footer-main-wrapper">
                     <div className="footer-header-block">
-                        <a href="/home-pages/home-v1" aria-current="page" className="footer-brand-logo-link-block w-inline-block w--current">
+                        <Link href="/home-pages/home-v1" aria-current="page" className="footer-brand-logo-link-block w-inline-block w--current">
                             <h1 className="text-white">Transnamic</h1>
-                        </a>
+                        </Link>
                         <div className="social-media-wrapper">
                             <a href="https://www.instagram.com/" target="_blank" className="social-link-block w-inline-block">
                                 <div className="social-icon-text">IG</div>

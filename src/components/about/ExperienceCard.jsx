@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { AnimatedCounter } from "../stats/animated-counter";
 
 const ExperienceCard = () => {
@@ -5,7 +6,7 @@ const ExperienceCard = () => {
         <div
             className="relative overflow-hidden rounded-3xl"
         >
-            <img
+            <Image
                 src="https://cdn.prod.website-files.com/66cbf3a93b65cddabce581a1/66d81c1f80fd4e7f940510b5_About-us-banner-v2-p-500.jpg"
                 alt="Construction blueprints"
                 className="h-full w-full object-cover"

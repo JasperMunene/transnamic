@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function FunFact() {
     return (
         <section className="about-us-fun-fact-section section-gap-y-axis-140px">
@@ -303,7 +305,7 @@ export default function FunFact() {
                     <div id="w-node-df5a6486-64e2-7dbc-ba48-f54d36fd2924-143f197d"
                          data-w-id="df5a6486-64e2-7dbc-ba48-f54d36fd2924"
                          className="about-fun-fact-banner">
-                        <div className="about-us-banner-wrap"><img
+                        <div className="about-us-banner-wrap"><Image
                             src="https://cdn.prod.website-files.com/66cbf3a93b65cddabce581a1/670274a813f01975724b0b64_about-funfact-banner.jpg"
                             loading="lazy"
                             sizes="(max-width: 767px) 94vw, (max-width: 991px) 500px, (max-width: 1279px) 402.859375px, (max-width: 1439px) 550px, (max-width: 1919px) 600px, 672px"

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const ContactHero = () => {
@@ -9,8 +10,8 @@ const ContactHero = () => {
               <div className="overflow-hiden-block">
                 <div className="breadcrumb-sub-title-block">
                   <div className="breadcrumb-sub-title">[</div>
-                  <a href="/"
-                     className="breadcrumb-sub-title link">Home</a>
+                  <Link href="/"
+                     className="breadcrumb-sub-title link">Home</Link>
                   <div className="breadcrumb-sub-title primary-color-2">/</div>
                   <div className="breadcrumb-sub-title primary-color-2">Contact Us</div>
                   <div className="breadcrumb-sub-title">]</div>

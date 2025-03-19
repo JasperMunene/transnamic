@@ -1,10 +1,12 @@
+import { Image } from "@radix-ui/react-avatar";
+
 export default function Contact() {
   return (
     <section className="contact-us-section padding-top-140px">
       <div className="w-layout-blockcontainer container w-container">
         <div className="contact-us-block">
           <div className="contact-us-banner-block">
-            <img
+            <Image
               src="/Nairobi.jpeg"
               loading="lazy"
               alt="Banner Image"

@@ -1,5 +1,6 @@
 import { FC } from 'react';
 import ServiceIcon from './ServiceIcon';
+import Image from 'next/image';
 
 const ServiceCard = ({ type, title, description, image }) => {
   return (
@@ -15,7 +16,7 @@ const ServiceCard = ({ type, title, description, image }) => {
       </p>
       
       <div className="mt-8 overflow-hidden rounded-2xl">
-        <img
+        <Image
           src={image}
           alt={title}
           className="h-64 w-full object-cover transition-transform duration-500 group-hover:scale-105"

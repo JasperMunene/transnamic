@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Testimonial() {
   return (
     <section className="testimonial-section">
@@ -42,7 +44,7 @@ export default function Testimonial() {
                 <div className="testimonial-slide w-slide">
                   <div className="testimonial-slide-item-block">
                     <div className="testimonial-slide-banner-block">
-                      <img
+                      <Image
                         src="https://images.pexels.com/photos/8528852/pexels-photo-8528852.jpeg?auto=compress&cs=tinysrgb&w=600"
                         loading="lazy"
                         alt="Diana Nyangena"
@@ -69,7 +71,7 @@ export default function Testimonial() {
                         </div>
                       </div>
                       <p className="testimonial-client-says">
-                        &quot;From start to finish, Transnamic's team was
+                        &quot;From start to finish, Transnamic&apos;s team was
                         dedicated, communicative, and reliable. They managed our
                         project seamlessly and delivered high-quality work on
                         time. I highly recommend them for any of your
@@ -86,7 +88,7 @@ export default function Testimonial() {
                 <div className="testimonial-slide w-slide">
                   <div className="testimonial-slide-item-block">
                     <div className="testimonial-slide-banner-block">
-                      <img
+                      <Image
                         src="https://cdn.prod.website-files.com/66cbf3a93b65cddabce581a1/66dd791a2a0e008e0122e81e_Michael%20Chen.jpg"
                         loading="lazy"
                         alt="Sarah Thompson"
@@ -131,7 +133,7 @@ export default function Testimonial() {
                 <div className="testimonial-slide w-slide">
                   <div className="testimonial-slide-item-block">
                     <div className="testimonial-slide-banner-block">
-                      <img
+                      <Image
                         src="https://images.pexels.com/photos/8872475/pexels-photo-8872475.jpeg?auto=compress&cs=tinysrgb&w=600"
                         loading="lazy"
                         alt="David Lee"

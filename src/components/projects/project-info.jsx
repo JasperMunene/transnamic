@@ -1,14 +1,15 @@
+import Image from 'next/image';
 import React from 'react';
 
 export default function ProjectInfo({
-                                        name,
-                                        description,
-                                        location,
-                                        scope,
-                                        itemNumber,
-                                        imageSrc,
-                                        projectLink,
-                                    }) {
+    name,
+    description,
+    location,
+    scope,
+    itemNumber,
+    imageSrc,
+    projectLink,
+}) {
     return (
         <div className="project-wrapper-v2 margin-top-70px">
             <div className="project-collection-list-wrapper w-dyn-list">
@@ -53,7 +54,7 @@ export default function ProjectInfo({
                             </div>
                             <div className="project-item-image-block">
                                 <div className="project-thumbnail-image-wrap">
-                                    <img
+                                    <Image
                                         src={imageSrc}
                                         loading="lazy"
                                         alt={`Thumbnail of ${name}`}

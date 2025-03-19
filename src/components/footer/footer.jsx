@@ -89,7 +89,7 @@ export default function Footer() {
                                 {isContactVisible && (
                                     <div className="footer-contact-link-block">
                                         <p className="footer-contact-paragraph">
-                                            We are dedicated to driving your business's success. With a team of experienced professionals.
+                                            We are dedicated to driving your business&apos;s success. With a team of experienced professionals.
                                         </p>
                                         <a href="mailto:transnamic@gmail.com" className="footer-link">transnamic@gmail.com</a>
                                         <a href="tel:(254)721150988" className="footer-link">(254) 721150988</a>

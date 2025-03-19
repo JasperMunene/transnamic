@@ -1,4 +1,5 @@
-import { Image } from "@radix-ui/react-avatar";
+import Image from "next/image";
+
 
 export default function Contact() {
   return (

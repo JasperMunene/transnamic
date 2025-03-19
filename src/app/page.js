@@ -3,7 +3,6 @@ import Hero from '@/components/hero/hero';
 import Navbar from '@/components/Navbar'
 import Services from '@/components/services/Services';
 import Stats from '@/components/stats/Stats';
-import Works from '@/components/works/Works';
 import Marquee from "@/components/marquee/marquee";
 import Project from "@/components/projects/project";
 import Contact from '@/components/contact/contact'

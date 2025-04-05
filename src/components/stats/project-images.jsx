@@ -7,7 +7,6 @@ const projects = [
   {
     id: 1,
     image: "/p2.jpg",
-
     alt: "Construction project 1"
   },
   {
@@ -20,27 +19,21 @@ const projects = [
     image: "/Project4.jpeg",
     alt: "Construction project 3"
   },
-  
   {
-    id: 3,
+    id: 4,
     image: "/Dongo.jpg",
     alt: "Construction project 4"
-
   },
-
   {
-    id: 3,
-    image: "/Project 5.jpg",
+    id: 5,
+    image: "/Project5.jpg", // Make sure the actual file is renamed properly in your public folder
     alt: "Construction project 5"
   },
-  
   {
-    id: 3,
+    id: 6,
     image: "/Westlands.jpeg",
-
     alt: "Construction project 6"
   }
-
 ];
 
 export function ProjectImages() {
